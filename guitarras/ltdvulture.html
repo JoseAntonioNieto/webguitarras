@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/guitarras.css">
+    <link rel="stylesheet" href="../css/guitarras.css">
     <title>Guitarra - ESP LTD Vulture</title>
 </head>
+
 <body>
     <header>
         <div class="contenido-header">
-            <a href="../index.html"><h1>Signature guitars</h1></a>
+            <a href="../index.html">
+                <h1 class="titulo">Signature guitars</h1>
+            </a>
             <div class="enl-header">
                 <a href="#"><img src="../imagenes/user.png" alt="" width="30px" height="30px">Iniciar sesión</a>
             </div>
@@ -54,10 +58,65 @@
     </header>
     <article>
         <section>
-            <h2>ESP LTD Vulture</h2>
-            <section>
-                <img src="../imagenes/ltd_vulture.jpg" alt="" class="rounded mx-auto d-block img-fluid">
-            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../imagenes/ltd_vulture.jpg" alt="" class="rounded mx-auto d-block img-fluid">
+                    </div>
+                    <div class="col-md-6 info-guitarra">
+                        <h1 class="mt-4">ESP LTD VULTURE BLKS</h1>
+                        <h1 class="margen-info">1499€</h1>
+                        <p class="margen-info">En Stock</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="number" value="1" name="cantidad" id="cantidad" class="form-control">
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <div class="enlcaja">
+                                    <a href="#">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row espec-guitarra mt-2">
+                    <div class="col-md-12">
+                        <p>Hetfield Signature</p>
+                        <p>Cuerpo de caoba</p>
+                        <p>Mástil de 3 piezas de caoba con forma en 'U' delgada</p>
+                        <p>Diapasón de ébano</p>
+                        <p>Radio del diapasón de 350 mm</p>
+                        <p>Anchura de cejilla de 42 mm</p>
+                        <p>Escala de 628 mm</p>
+                        <p>22 trastes XJ</p>
+                        <p>Set de pastillas humbucker activas EMG JH</p>
+                        <p>2 controles de volumen</p>
+                        <p>Interruptor de palanca</p>
+                        <p>Herrajes en negro satinado</p>
+                        <p>Clavijas de afinación LTD con bloqueo</p>
+                        <p>Cordal y puente Tonepros TOM con bloqueo</p>
+                        <p>Acabado: Negro satinado</p>
+                        <p>Incluye estuche</p>
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
+        <h2>ARTISTAS QUE LA USAN</h2>
+        <div class="caja">
+            <div class="">
+                <img src="../imagenes/james.jpg" alt="" class="espltdvulture">
+            </div>
+            <div class="txtcaja">
+                <h2>James Hetfield</h2>
+                <p class="text-justify">James Alan Hetfield (Downey, California, 3 de agosto de 1963)
+                es un músico estadounidense conocido por ser el vocalista, guitarrista rítmico
+                y principal compositor de la banda de thrash metal Metallica,
+                además de ser cofundador de la misma junto con Lars Ulrich. </p>
+                <div class="enlcaja">
+                    <a href="#">Ver Mas</a>
+                </div>
+            </div>
+        </div>
     </article>
 </body>

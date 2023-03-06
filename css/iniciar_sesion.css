@@ -1,10 +1,10 @@
 /* Estilos header */
-/* Estilos header */
 body {
     background-color: black !important;
 }
 
 h1 {
+    text-align: center;
     color: white;
 }
 
@@ -12,7 +12,9 @@ a {
     text-decoration: none !important;
 }
 
-.container, .col, .row  {
+.container,
+.col,
+.row {
     padding: 0px !important;
     text-align: center;
 }
@@ -28,8 +30,17 @@ a {
 }
 
 * {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
 }
 
 .nav {
@@ -40,58 +51,35 @@ a {
     margin-right: 15%;
 }
 
-ul, ol {
-    list-style:none;
-}
-
-.nav > li {
-    float:left;
-}
-
 .nav li a {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
 }
 
 .nav li a:hover {
-    background-color:#434343;
+    background-color: #434343;
 }
 
 .nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
+    display: none;
+    position: absolute;
+    min-width: 140px;
 }
 
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    display:block;
+.nav li:hover>ul {
+    display: block;
 }
 
 .nav li ul li {
-    position:relative;
+    position: relative;
 }
 
 .nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-/* Estilos header */
-
-.img-principal {
-    margin: 20px;
-    width: 700px !important;
+    right: -140px;
+    top: 0px;
 }
 
 .caja {
@@ -109,11 +97,6 @@ ul, ol {
 .espltdvulture {
     margin-top: 30px;
     height: 300px !important;
-    margin-left: 20px;
-}
-
-.txtcaja p {
-    color: black !important;
 }
 
 .txtcaja {
@@ -133,9 +116,9 @@ footer {
 
 .enlcaja {
     background-color: blue;
-    width: 300px;
-    height: 40px;
+    width: 200px;
     margin: auto;
+    padding-left: 70px;
     border-radius: 20px;
 }
 
@@ -144,39 +127,25 @@ footer {
 }
 
 h2 {
-    text-align: center;
     color: white;
-    margin-top: 20px;
+    text-align: center;
 }
 
 .txtcaja h2 {
     color: black;
 }
 
-.text-justify {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.info-guitarra {
+p {
     color: white;
-    text-align: left;
-}
-
-.margen-info {
-    margin-top: 75px;
-}
-
-.espec-guitarra {
-    color: white;
-    text-align: left;
-}
-
-.titulo {
     text-align: center;
 }
 
-@media screen and (max-width: 553px){
+.margin-ini {
+    margin-top: 220px;
+}
+
+
+@media screen and (max-width: 553px) {
     .caja {
         display: block;
     }
