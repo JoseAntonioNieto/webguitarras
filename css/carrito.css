@@ -117,11 +117,10 @@ footer {
 .enlcaja {
     background-color: blue;
     width: 200px;
-    margin: auto;
     border-radius: 20px;
 }
 
-a {
+.enlcaja a {
     color: white;
 }
 
@@ -130,19 +129,19 @@ h2 {
     text-align: center;
 }
 
+.txtcaja {
+    text-align: left;
+}
+
 .txtcaja h2 {
     color: black;
+    text-align: left;
 }
 
-p {
-    color: white;
-    text-align: center;
+.txt-precio {
+    text-align: right;
+    margin-right: 20px;
 }
-
-.margin-ini {
-    margin-top: 220px;
-}
-
 
 @media screen and (max-width: 553px) {
     .caja {
